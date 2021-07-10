@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOKOSSOU Romerik</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            width: 80%;
+            margin: auto;
+        }
+        p{
+            font-size: 1.1em;
+        }
+        header{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 10px;
+        }
+        .moi{
+            display: inline-block;
+            width: 250px;
+            height: auto;
+            background-size: cover;
+            max-width: 65%;
+        }
+        header div{
+            margin-left: 20%;
+        }
+        header h2, h3{
+            color: blue;
+        }
+        header img{
+            width: 20px;
+            height: 20px;
+        }
+        .objectif{
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .objectif .content{
+            text-align: justify;
+        }
+        .object{
+            width: 100%;
+            border-bottom: 3px solid rgb(0, 0, 255);
+        }
+        .object p{
+            display: inline-block;
+            border-radius: 10px 10px 0px 0px;
+            background-color: rgb(0, 0, 255);
+            padding: 5px 10px;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+        }
+        .content{
+            padding: 15px 7px;
+        }
+        li{
+            padding: 7px 0px;
+        }
+        a{
+            text-decoration: none;
+            color: rgba(15, 8, 8, 0.808);
+        }
+        .contents li h4{
+            font-weight: 100;
+        }
+        .infos p{
+            margin-top: 10px;
+        }
+        @media screen and (max-width:750px){
+            header{
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .infos{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .infos h3{
+                margin-top: 10px;
+            }
+            *{
+                font-size: 0.9rem;
+            }
+            header div{
+                margin: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="cv.png" alt="Photo de Romerik LOKOSSOU" class="moi">
+        <div class="infos">
+            <h2>LOKOSSOU Romerik</h2>
+            <h3>Développeur</h3>
+            <p><img src="localisation.png" alt="Ma localisation"> | Abomey-Calavi</p>
+            <p><img src="tel.png" alt="Mon numéro de téléphone"> | +22994062298</p>
+            <p><img src="mail.png" alt="Adresse mail"> | eeric5756@gmail.com</p>
+            <p><img src="git.png" alt="Mon github"> | https://github.com/romerik</p>
+            <p><img src="link.png" alt="Mon linkedIn"> | https://linkedin.com/in/romerik-lokossou-0530311b7/</p>
+        </div>
+    </header>
+    <main>
+        <div class="objectif">
+            <div class="object">
+                <p>Objectif</p>
+            </div>
+            <p class="content">
+                Etant vraiment passioné par tout ce qui concerne l'informatique, plus principalement la programmation 
+                web, la programmation mobile et l'intelligence artificielle, mon but est d'améliorer mes compétences 
+                et d'acquérir de la connaissance et de l'expérience à travers la réalisation de projets concrets.
+            </p>
+        </div>
+        <div class="education">
+            <div class="object">
+                <p>Education</p>
+            </div>
+            <ul class="content">
+                <li>
+                    <h4>Institut de Formation et de Recherche en Informatique (IFRI) | Septembre 2019 - A ce jour</h4>
+                    <p>Licence professionnelle en Génie Logiciel (2em année actuellement)</p>
+                </li>
+                <li>
+                    <h4>Bacalauréat scientifique (BAC Série C) | Juillet 2019</h4>
+                </li>
+                <li>
+                    <h4>Brevet d'Etude Premier Cycle (BECP) | Juillet 2016</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="competences">
+            <div class="object">
+                <p>Compétences</p>
+            </div>
+            <ul class="content">
+                <li>Maitrise des langages C, C++, Java, Python</li>
+                <li>Maitrise des langages HTML, CSS, JavaScript, PHP</li>
+                <li>Maitrise des framework front-end Bootstrap, JQuerry, React-JS et Redux</li>
+                <li>Maitrise des framework back-end Laravel, Django</li>
+                <li>Maitrise des systèmes Linux et Windows</li>
+                <li>Maitrise de SQL et Oracle</li>
+                <li>Début en Data Science</li>
+                <li>Maitrise de Moodle</li>
+                <li>Programmation réseau avec Python</li>
+            </ul>
+        </div>
+        <div class="projets">
+            <div class="object">
+                <p>Projets</p>
+            </div>
+            <ul class="content">
+                <li>
+                    <h4><a href="https://beryl452.github.io/rotaryApp/">https://beryl452.github.io/rotaryApp/</a></h4>
+                    <p>Projet pour le concours du Rotary App organisé par EpiTech</p>
+                </li>
+                <li>
+                    <h4><a href="https://romerik.github.io/datascienceAlxRomerik/">https://romerik.github.io/datascienceAlxRomerik/</a></h4>
+                    <p>Projet pour Alx Software Engineer Program</p>
+                </li>
+                <li>
+                    <h4><a href="https://github.com/romerik/ApiLaravel/tree/main">https://github.com/romerik/ApiLaravel/tree/main</a></h4>
+                    <p>Une API fait en laravel pour une application de pharmacie avec Laravel Passport</p>
+                </li>
+                <li>
+                    <h4><a href="https://codepen.io/Romerik">codepen.io/Romerik</a></h4>
+                    <p>J'ai fais certains projets web front-end que j'ai mis sur le site</p>
+                </li>
+                <li>
+                    <h4><a href="https://github.com/romerik">github.com/romerik</a></h4>
+                    <p>Mon dépot distant où je mets mes projets personnel</p>
+                </li>
+            </ul>
+        </div>
+        <div class="certifications">
+            <div class="object">
+                <p>Certifications</p>
+            </div>
+            <ul class="contents">
+                <li>
+                    <h4><a href="https://www.freecodecamp.org/certification/selfpycode/data-analysis-with-python-v7">Certification Data Analysis with Python (FreeCodeCamp)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://www.sololearn.com/certificates/course/en/20556780/1161/landscape/png">Certification Python for Data Science (Sololearn)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://freecodecamp.org/certification/selfpycode/scientific-computing-with-python-v7">Certification Scientific Computing with Python (FreeCodeCamp)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://www.sololearn.com/certificates/course/en/20556780/1159/landscape/png">Certification Python Data Structures (Sololearn)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://freecodecamp.org/certification/selfpycode/responsive-web-design">Certification Responsive Web Design (FreeCodeCamp)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://freecodecamp.org/certification/selfpycode/javascript-algorithms-and-data-structures">Certification JavaScript Data and Algorithms Structures (FreeCodeCamp)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://openclassrooms.com/fr/course-certificates/3761503653">Cerification Concevez votre site web avec PHP et MySQL</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://openclassrooms.com/fr/course-certificates/9643034637">Certification Apprenez du JavaScript pour le web (OpenClassroom)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://openclassrooms.com/fr/course-certificates/1144692688">Certification Gérez vos codes avec Git et Github (OpenClassroom)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://openclassrooms.com/fr/course-certificates/4016848930">Certification Créer des sites web responsive avec Bootstrap 4 (OpenClassroom)</a></h4>
+                </li>
+                <li>
+                    <h4>Et encore d'autres visible sur mon profil LinkedIn</h4>
+                    <p><a href="https://linkedin.com/in/romerik-lokossou-0530311b7/">https://linkedin.com/in/romerik-lokossou-0530311b7/</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="langues">
+            <div class="object">
+                <p>Langues</p>
+            </div>
+            <ul class="content">
+                <li>Français</li>
+                <li>Anglais</li>
+                <li>Fon Goun</li>
+            </ul>
+        </div>
+        <div class="interet">
+            <div class="object">
+                <p>Interets</p>
+            </div>
+            <ul class="content">
+                <li>Basketball</li>
+                <li>Musique</li>    
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
